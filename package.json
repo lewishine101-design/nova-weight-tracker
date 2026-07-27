@@ -1,0 +1,13 @@
+{
+  "name": "nova-weight-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nova weight tracker for Lewis and Ben",
+  "scripts": {
+    "serve": "firebase emulators:start --only hosting",
+    "deploy": "firebase deploy --only hosting"
+  },
+  "devDependencies": {
+    "firebase-tools": "^14.11.2"
+  }
+}
